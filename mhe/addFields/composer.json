@@ -1,0 +1,11 @@
+{
+    "repositories": [
+      {
+        "type": "path",
+        "url": "mhe/addFields"
+      }
+    ],
+    "require": {
+      "mhe/add-fields": "1.0.*"
+    }
+  }
