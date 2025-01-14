@@ -1,5 +1,5 @@
 {
-  "name": "mhe/add-fields",
+  "name": "fmnznr/add-fields",
   "type": "contao-bundle",
   "description": "addFields",
   "keywords": ["contao", "extension"],
@@ -16,6 +16,6 @@
     }
   },
   "extra": {
-    "contao-manager-plugin": "Mhe\\AddFields\\ContaoManager\\Plugin"
+    "contao-manager-plugin": "fmnznr\\AddFields\\ContaoManager\\Plugin"
   }
 }
