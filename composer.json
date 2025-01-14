@@ -1,0 +1,21 @@
+{
+  "name": "mhe/add-fields",
+  "type": "contao-bundle",
+  "description": "addFields",
+  "keywords": ["contao", "extension"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Ronny John",
+      "email": "info@ronny-john.de"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Mhe\\AddFields\\": "src/"
+    }
+  },
+  "extra": {
+    "contao-manager-plugin": "Mhe\\AddFields\\ContaoManager\\Plugin"
+  }
+}
