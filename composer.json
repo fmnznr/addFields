@@ -1,21 +1,17 @@
 {
   "name": "fmnznr/add-fields",
-  "type": "contao-bundle",
-  "description": "addFields",
-  "keywords": ["contao", "extension"],
-  "license": "MIT",
-  "authors": [
-    {
-      "name": "Ronny John",
-      "email": "info@ronny-john.de"
-    }
-  ],
   "autoload": {
-    "psr-4": {
-      "Mhe\\AddFields\\": "src/"
-    }
+      "psr-4": {
+          "fmnznr\\AddFields\\": "src"
+      }
+  },
+  "conflict": {
+      "contao/manager-plugin": "<2.0 || >=3.0"
+  },
+  "require-dev": {
+      "contao/manager-plugin": "^2.0"
   },
   "extra": {
-    "contao-manager-plugin": "fmnznr\\AddFields\\ContaoManager\\Plugin"
+      "contao-manager-plugin": "fmnznr\\AddFields\\ContaoManager\\Plugin"
   }
 }
